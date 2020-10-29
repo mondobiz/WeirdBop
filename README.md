@@ -26,4 +26,12 @@ other music api
 Not sure as long as I can figure out how to get the artist discographies to link.
 Spotify was too difficult to work with now I'm trying musixmatch.
 
+where they are from
+est amt of music
+fun fact
+
+Have to change "Weird Al" to Me First and the Gimme Gimmes. Because "Weird Al" changes the names from the original I would have to build a seperate api for "Weird Al" Yankovic with his songs and the originals.
+
+
+
 
