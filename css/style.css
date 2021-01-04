@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,5 +7,16 @@
 }
 
 body {
-    font-family: comic-sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(230, 4, 230);
+}
+
+#search {
+    min-width: 200px;
+    background-color: orange;
+    text-align: center;
 }
