@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    --logo-font: 'Coda Caption', Cursive;
 }
 
 body {
@@ -13,10 +14,26 @@ body {
     align-items: center;
     text-align: center;
     background-color: rgb(230, 4, 230);
+    font-family: var(--logo-font);
 }
 
 #search {
     min-width: 200px;
     background-color: orange;
     text-align: center;
+}
+
+#result {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.yes {
+    background: black;
+    color: green;
+}
+
+.no {
+    background: black;
+    color: red;
 }

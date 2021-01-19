@@ -25,9 +25,13 @@ function findSongMatch(data, searchBop) {
   const searchResult = trackList.filter((track) => track.track.track_name.toLowerCase() === searchBop.toLowerCase());
   console.log(searchResult)
   if (searchResult.length > 0) {
-    alert(`Kidz Bop covered ${searchBop.toUpperCase()} on ${searchResult[0].track.album_name}!`)
+    // alert(`Kidz Bop covered ${searchBop.toUpperCase()} 
+    //   on ${searchResult[0].track.album_name}!`)
+      $("#result").html(`<div class="yes">Kidz Bop covered ${searchBop.toUpperCase()} 
+      on ${searchResult[0].track.album_name}!</div>`)
   } else {
-    alert(`Kidz Bop has not covered ${searchBop}. :(`)
+    // alert(`Kidz Bop has not covered ${searchBop}. :(`)
+    $("#result").html(`<div class="no">Kidz Bop has not covered ${searchBop}. :(</div>`)
   }
 }
 
